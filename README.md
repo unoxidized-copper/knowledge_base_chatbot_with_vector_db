@@ -10,6 +10,10 @@ This project is a Bengali RAG chatbot over one complete prose book from Bengali 
 - **Type:** Bengali prose novel
 - **Why this book:** The Wikisource edition is available as clean digital text and has separate chapter subpages, so it is suitable for a full-book RAG pipeline without OCR.
 
+## Demo video
+
+[demo](https://drive.google.com/file/d/1Vb3gI92BtvxPPw9I2xp9mZB_ttX_hGtX/view?usp=sharing)
+
 ## Setup
 
 Python 3.10 or newer is recommended.
