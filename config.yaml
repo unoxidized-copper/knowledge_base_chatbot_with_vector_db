@@ -1,0 +1,26 @@
+book:
+  title: "দেবী চৌধুরাণী"
+  author: "বঙ্কিমচন্দ্র চট্টোপাধ্যায়"
+  root_url: "https://bn.wikisource.org/wiki/দেবী_চৌধুরাণী_(বঙ্কিমচন্দ্র_চট্টোপাধ্যায়,_১৯৩৯)"
+  description: "বঙ্কিমচন্দ্র চট্টোপাধ্যায়ের একটি বাংলা গদ্য উপন্যাস। এই প্রকল্পে উইকিসংকলনের সম্পূর্ণ অধ্যায়ভিত্তিক পাঠ ব্যবহার করা হয়েছে।"
+  chapter_link_must_contain: "পরিচ্ছেদ"
+
+paths:
+  raw_chapters: "data/raw_chapters.json"
+  chunks: "data/chunks.json"
+  vector_store: "vectorstores/debi_chowdhurani_faiss"
+  bonus_report: "reports/bonus_comparison.md"
+
+embedding:
+  model_name: "intfloat/multilingual-e5-small"
+
+chunking:
+  chunk_size: 900
+  chunk_overlap: 120
+
+retriever:
+  k: 5
+
+llm:
+  model: "gemini-2.5-flash"
+  temperature: 0.1
